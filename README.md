@@ -1,11 +1,12 @@
 
 # Demo Automation Framework for DApp Testing with MetaMask
 
-This project is an automated testing framework designed to test Decentralized Applications (DApps) with MetaMask integration. It provides a robust solution for automating the testing of Web3 applications using Selenium WebDriver and TestNG.
+This is a Web3-focused hybrid automation framework designed to test decentralized applications (dApps) that interact with MetaMask wallet extensions. Built with Java, Selenium, and TestNG, it offers full control over browser extensions and multi-tab workflows.
 
 ## 🚀 Features
 
-- Automated testing of DApps with MetaMask integration
+- Automated testing of dApps with MetaMask integration (via CRX extension)
+- Hybrid Page Object Model (POM) design
 - Selenium WebDriver for web automation
 - TestNG for test execution and management
 - Allure reporting for detailed test reports
@@ -13,6 +14,8 @@ This project is an automated testing framework designed to test Decentralized Ap
 - CSV data handling with OpenCSV
 - ExtentReports for test reporting
 - Log4j for logging
+- Custom Annotations
+- Parallel test execution supported
 
 ## 🛠️ Prerequisites
 
