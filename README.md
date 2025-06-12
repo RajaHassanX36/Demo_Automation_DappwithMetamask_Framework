@@ -37,14 +37,27 @@ The project uses the following major dependencies:
 ```
 ├── src/
 │   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── dappwithmm/
+│   │               └── qa/
+│   │                   ├── Analyzer/         # Test failure analyzer
+│   │                   ├── base/            # Base classes and configurations
+│   │                   ├── config/          # Configuration files
+│   │                   ├── pages/           # Page Object Model classes
+│   │                   └── utils/           # Utility classes
 │   └── test/
 │       └── java/
 │           └── com/
+│               └── dappwithmm/
+│                   └── qa/
+│                       └── testcases/       # Test case implementations
 ├── TestRunner/
-│   └── testng.xml
-├── test-output/
-├── allure-results/
-├── pom.xml
+│   └── testng.xml                          # TestNG configuration
+├── test-output/                            # Test execution output
+├── allure-results/                         # Allure report results
+├── target/                                 # Maven build output
+├── pom.xml                                 # Maven dependencies and plugins
 └── README.md
 ```
 
